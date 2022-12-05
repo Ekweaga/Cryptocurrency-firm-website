@@ -6,7 +6,7 @@ function Footer() {
     <>
     <footer className='mt-[300px]   w-[90%] mx-auto'>
         <Image src="/Group.png" width={50} height={100}/>
-        <div className='grid grid-cols-6 gap-[10px] mt-[20px]'>
+        <div className='grid grid-cols-2 md:grid-cols-6 md:gap-[10px] mt-[20px] gap-[20px] ml-[20px] md:ml-0'>
             <div>
                 <h2 className='font-bold'>Product</h2>
                 <ul className='flex flex-col gap-[20px] text-sm mt-[15px]'>
@@ -65,11 +65,11 @@ function Footer() {
             </div>
         </div>
 
-        <div className='mt-[40px] text-sm '>
-            <hr/>
-            <div className='flex justify-between mt-[20px]'>
+        <div className='mt-[40px] text-sm py-4 '>
+        
+            <div className='flex justify-between mt-[20px] flex-col md:flex-row'>
                 <p>Copyright @Chax.com</p>
-                <ul className='flex gap-[20px]'>
+                <ul className='flex gap-[20px] flex-col md:flex-row mt-[20px] md:mt-0'>
                     <li>Privacy</li>
                     <li>Terms of Use</li>
                     <li>Copyright Abuse Policy</li>
